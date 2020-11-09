@@ -1,0 +1,172 @@
+
+body{
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Montserrat';
+}
+
+.section-heading{
+  font-family: 'Fugaz One', cursive;
+  padding: 2% 7%;
+}
+
+/* Title */
+
+#title{
+  background-color: #00005c;
+  color: #fff;
+  padding: 2% 7%;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: 'Fugaz One', cursive;
+  font-size: 3.5rem;
+  padding-right: 60%;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+/* Subtitle */
+
+.subtitle{
+  line-height: 1.7;
+  padding: 13% 0;
+  text-align: left;
+}
+
+.subtitle-paragraph{
+  letter-spacing: 2px;
+}
+
+/* Services */
+
+#services{
+  line-height: 1.7;
+  padding: 2% 7%;
+}
+
+#services .jumbotron{
+  margin: 30px;
+}
+
+.service-image{
+  height: 250px;
+  width: 250px;
+  padding:3% 0;
+}
+
+.service-button{
+  margin-bottom: 30px;
+}
+
+.service-text{
+  text-align: left;
+}
+
+.heena-image{
+  height: 400px;
+  width: 400px;
+  padding: 5% 0;
+}
+
+.modalheena-image{
+  height: 500px;
+  width: 650px;
+}
+
+/* Carousel */
+.carousel-icon{
+  color: #000;
+}
+
+/* Contact */
+
+#contact{
+  background-color: #00005c;
+  color: #fff;
+  padding: 2% 7%;
+  text-align: left;
+}
+
+.montreal{
+  float: left;
+  padding-bottom: 70PX;
+}
+
+.laval{
+  padding-bottom: 70PX;
+}
+
+legend{
+  padding-bottom: 10px;
+}
+
+.contact-heading{
+  padding-bottom: 10px;
+}
+
+a{
+  color: #fff;
+}
+
+/* About */
+
+#about{
+    line-height: 2;
+    padding: 2% 7%;
+}
+
+.about{
+  background-color: #f1f3f8;
+}
+
+.about-text{
+  padding: 20%;
+  text-align: left;
+}
+
+.about-img{
+  height: 600px;
+  width: 500px;
+  padding-top: 13%
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #00005c;
+  color: #fff;
+  padding: 2% 7%;
+}
+
+.social-icon{
+  padding-bottom: 1%;
+}
+
+i{
+  color: #fff;
+}
+
+.social-icon{
+  margin: 10px;
+}
+
+/* Media query breakpoint */
+@media (max-width: 1028px) {
+  .about-img{
+    padding: 5% 0;
+  }
+
+  .about-text{
+    padding: 10% 20% 0 20%;
+  }
+}

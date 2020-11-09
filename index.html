@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Salon Amie</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat" rel="stylesheet">
+
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Icon favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/52f396f0bf.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Salon Amie</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- subtitle -->
+
+      <div class="row">
+        <div class="col-lg-6 subtitle">
+          <h3><b>At Salon Amie we treat our clients like royalty</b></h3>
+          <p class="subtitle-paragraph">
+            Our beautician team also provides in-depth consultations that include analyzing your lifestyle
+            to arrive at a personalized service/product prescription that’s just right for you.
+          </p>
+          <a href="#contact">
+            <button class="btn btn-lg btn-info" type="button" name="button">Book an appoinment</button>
+          </a>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="rounded-circle" src="images/girl-beauty.jpg" alt="Girl-Image">
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Services -->
+
+  <section id="services">
+
+    <h2 class="section-heading">Services</h2>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Threading</h3>
+          </div>
+          <div clas="card-body">
+            <img class="service-image" src="images/Eyebrow.jpg" alt="Girl Eyebrow">
+            <p class="jumbotron service-text">
+              Eyebrow threading can be used to eliminate a unibrow, raise the arch of the
+              eyebrow, or add shape and definition to the brow.
+            </p>
+
+            <!-- Button to open the Modal -->
+            <button class="btn btn-dark btn-lg service-button" type="button" name="button" data-toggle="modal" data-target="#moredetailsone">More Details</button>
+
+            <!-- The Modal -->
+            <div id="moredetailsone" class="modal fade service-text">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title">Threading Services</h3>
+                    <button type="button" name="button" class="close btn btn-dark" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal Body -->
+                  <div class="modal-body">
+                    <p>Eyebrows</p>
+                    <p>Eyebrows Tinting</p>
+                    <p>Upper Lip</p>
+                    <p>Chin</p>
+                    <p>Full face</p>
+                  </div>
+
+                  <!-- Modal Footer -->
+                  <div class="modal-footer">
+                    <button type="button" name="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Waxing</h3>
+          </div>
+          <div clas="card-body">
+            <img class="service-image" src="images/waxing.jpg" alt="waxing">
+            <p class="jumbotron service-text">
+              Waxing is a method of semi-permanent hair removal which removes the hair from the root. New hairs
+              will not grow back in the previously waxed area for two to eight weeks.
+            </p>
+
+            <!-- Button to open the Modal -->
+            <button class="btn btn-dark btn-lg service-button" type="button" name="button" data-toggle="modal" data-target="#moredetailstwo">More Details</button>
+
+            <!-- The Modal -->
+            <div id="moredetailstwo" class="modal fade service-text">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3 class="modal-title">Waxing Services</h3>
+                    <button type="button" name="button" class="close btn btn-dark" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal Body -->
+                  <div class="modal-body">
+                    <p>Under Arms</p>
+                    <p>Half Arms</p>
+                    <p>Full Arms</p>
+                    <p>Half Legs</p>
+                    <p>Full Legs</p>
+                    <p>Full Face</p>
+                    <p>Full Bikini</p>
+                    <p>Bikini Line</p>
+                    <p>Eyebrows Waxing</p>
+                  </div>
+
+                  <!-- Modal Footer -->
+                  <div class="modal-footer">
+                    <button type="button" name="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Facials</h3>
+          </div>
+          <div clas="card-body">
+            <img class="service-image" src="images/facial.jpg" alt="facial">
+            <p class="jumbotron service-text">
+              Facial is a procedure involving a variety of skin treatments, including: steam, exfoliation,
+              extraction, creams, lotions, masks, peels, and massage.
+            </p>
+
+            <!-- Button to open the Modal -->
+            <button class="btn btn-dark btn-lg service-button" type="button" name="button" data-toggle="modal" data-target="#moredetailsthree">More Details</button>
+
+            <!-- The Modal -->
+            <div id="moredetailsthree" class="modal fade service-text">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h3>Facials Services</h3>
+                    <button type="button" name="button" class="close btn btn-dark" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal Body -->
+                  <div class="modal-body">
+                    <p>Gold Facial</p>
+                    <p>Fruit Facial</p>
+                    <p>Herbal Facial</p>
+                    <p>Face Bleach</p>
+                  </div>
+
+                  <!-- Modal Footer -->
+                  <div class="modal-footer">
+                    <button type="button" name="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Henna</h3>
+          </div>
+          <div clas="card-body">
+            <img class="service-image" src="images/heena.jpg" alt="heena design">
+            <p class="jumbotron service-text">
+              Henna is considered to be one of the oldest cosmetics in the world, and has been used on skin,
+              nails and hair for centuries. There are different types of henna like bridal heena, heena tattoo
+              and regular henna designs.
+            </p>
+            <button class="btn btn-dark btn-lg service-button" type="button" name="button" data-toggle="collapse" data-target="#moredetailsfour">More Designs</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="moredetailsfour" class="collapse">
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena1.jpg" alt="heena design">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena2.jpg" alt="heena design">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena3.jpg" alt="heena design">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena4.jpg" alt="heena design">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena5.jpg" alt="heena design">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena6.jpg" alt="heena design">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena7.jpg" alt="heena design">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a href="#modalheena" data-toggle="modal">
+              <!-- Link to open the Modal -->
+              <img class="heena-image" src="images/heena8.jpeg" alt="heena design">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="modalheena">
+      <div class="modal-dialog modal-dialog-centered">
+
+        <!-- The Carousel -->
+        <div class="carousel slide" data-ride="carousel" id="carouselheena">
+
+          <!-- The Slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="modalheena1">
+              <img class="modalheena-image" src="images/heena1.jpg" alt="heena design">
+            </div>
+            <div class="carousel-item" id="modalheena2">
+              <img class="modalheena-image" src="images/heena2.jpg" alt="heena design">
+            </div>
+            <div class="carousel-item">
+              <img class="modalheena-image" src="images/heena3.jpg" alt="heena design">
+            </div>
+            <div class="carousel-item">
+              <img class="modalheena-image" src="images/heena4.jpg" alt="heena design">
+            </div>
+            <div class="carousel-item">
+              <img class="modalheena-image" src="images/heena5.jpg" alt="heena design">
+            </div>
+            <div class="carousel-item">
+              <img class="modalheena-image" src="images/heena6.jpg" alt="heena design">
+            </div>
+            <div class="carousel-item">
+              <img class="modalheena-image" src="images/heena7.jpg" alt="heena design">
+            </div>
+            <div class="carousel-item">
+              <img class="modalheena-image" src="images/heena8.jpeg" alt="heena design">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a href="#carouselheena" class="carousel-control-prev" data-slide="prev" role="button">
+        <span class="carousel-control-prev-icon carousel-icon"></span>
+      </a>
+      <a href="#carouselheena" class="carousel-control-next" data-slide="next" role="button">
+        <span class="carousel-control-next-icon carousel-icon"></span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact">
+
+    <h2 class="section-heading" style="text-align: center;">Contact</h2>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="contact">
+          <div class="montreal">
+            <h3 class="contact-heading">Montreal</h3>
+            <p><a href="https://goo.gl/maps/m5rLY42gNHUMw1kQ8"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;5775 Ave. Victoria #110,Montreal</a></p>
+            <p><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;<a href="tel:15143415700">514-341-5700</a></p>
+            <br><br>
+            <h3 class="contact-heading">Business Hours</h3>
+            <p>Monday - Wednesday: 10am - 6pm</p>
+            <p>Thursday - Friday: 10am - 7pm</p>
+            <p>Saturday: 10am - 6pm</p>
+            <p>Sunday: 11am - 5pm</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="laval">
+          <h3 class="contact-heading">Laval</h3>
+          <p><a href="https://goo.gl/maps/V93rXUJZMmouoTS68"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;5018 Boul. Samson, Laval</a></p>
+          <p><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;<a href="tel:14509734040">450-973-4040</a></p>
+          <br><br>
+          <h3>Business Hours</h3>
+          <p>Monday - Saturday: 10am - 6pm</p>
+          <p>Sunday: closed</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="appoinment">
+          <form>
+            <fieldset>
+              <legend>
+                <h3>Book an Appoinment</h3>
+              </legend>
+              <label for="name">Name :</label>
+              <input type="text" name="name"><br><br>
+              <label for="email">Email :</label>
+              <input type="email" name="email"><br><br>
+              <label for="datetime">Date :</label>
+              <input type="date" name="date"><br><br>
+              <p>Any Message</p>
+              <textarea name="message" rows="8" cols="80"></textarea><br><br>
+              <button class="btn btn-lg btn-info" type="submit" name="button">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+
+  <div id="about">
+    <h2 class="section-heading">About Us</h2>
+    <div class="row about">
+      <div class="col-lg-6">
+        <p class="about-text">Our beauticians find endless ways to reveal your carefree spirit and dare your inner diva, while
+          our nail experts and eyebrow specialists provides <code>special care</code> to your looks and styles. What makes
+          Salon Amie different is the extreme <code>attention to detail</code> from the moment you arrive. Every day, we find more
+          and more ways to provide you with the ultimate <code>experience in beauty</code> and relaxation. Our salon has been
+          designed to provide you with the latest in service for body and mind. <code>We listen</code>, <code>we inform</code> and <code>we care</code> about you.
+          Why not make your next visit to Salon Amie and see this "extraordinary" experience for yourself. We look forward to meeting you in person.
+        </p>
+      </div>
+
+      <div class="col-lg-6">
+        <img class="about-img" src="images/salonimg.jpg" alt="about-immage">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div>
+      <!-- <i class="social-icon fab fa-twitter"></i> -->
+      <a href="https://www.facebook.com/salonamie20/"><i class="social-icon fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/salonamiemontreal/"><i class="social-icon fab fa-instagram"></i></a>
+      <a href="mailto:karishma0407@icloud.com"><i class="social-icon fas fa-envelope"></i></a>
+      <p>© Copyright 2020 Salon Amie</p>
+    </div>
+
+  </footer>
+
+  </div>
+
+</body>
+
+</html>
